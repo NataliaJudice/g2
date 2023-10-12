@@ -1,0 +1,73 @@
+
+
+
+.manchete h1 {
+    font-size: 3.0rem; 
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.p2,.text-center {
+    font-size: 1.2rem; 
+    padding-bottom: 15px;
+}
+.imagem{
+    border-radius: 35px;
+    height: 35rem;
+    width: 41rem;
+    object-fit: cover;
+  }
+.fonte{
+      font-size: 10px;
+      font-style: italic;
+    }  
+.p-responsivo{
+            padding-top: 30px;
+            font-size: 1.1rem;
+        }
+hr{
+    padding-bottom: 50px;
+}
+li a{
+    
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+li a:hover{
+    text-decoration: underline;
+}
+strong, p{
+    font-size: 1.3rem;
+   
+}
+h1{
+    font-weight: bold;
+}
+footer{
+    padding-top: 20px;
+    font-size: 1rem;
+}
+
+.fp{
+    font-size: 15px;
+}
+ 
+  
+  
+  
+
+
+
+    
+    
+  
+
+
+
+
+
+
+
+
+
+
+

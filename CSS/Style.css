@@ -1,0 +1,185 @@
+body {
+    background-color: rgb(242, 242, 242);
+}
+
+
+a {
+    color: rgb(0, 166, 255);
+    text-decoration: none;
+
+}
+
+nav {
+    background-color: rgb(0, 166, 255);
+}
+
+.nomes{
+   text-align: right;
+   padding-right: 10px;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+
+
+}
+
+.nav-link {
+    color: white;
+    justify-content: right;
+
+}
+
+.principal {
+    background-color: rgb(242, 242, 242);
+    transition: transform .2s;
+}
+
+.subnoticia {
+    background-color: rgb(242, 242, 242);
+    transition: transform .2s;
+    padding-bottom: 0px;
+}
+
+
+.subnoticia2 {
+    background-color: rgb(242, 242, 242);
+    transition: transform .2s;
+    padding-bottom: 0px;
+
+}
+
+.p4 {
+    background-color: rgb(0, 166, 255);
+}
+
+.d-block {
+    height: 500px;
+    object-fit: cover;
+}
+
+.img-fluid {
+    border-radius: 35px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid rgb(199, 198, 198);
+
+}
+
+
+.divs {
+    width: 65%;
+}
+
+h4 {
+    padding-top: 0px;
+    color: rgb(160, 160, 160);
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.titulo1 {
+    color: white;
+    text-align: left;
+    text-shadow: 0.1em 0.1em 0.2em rgb(147, 147, 147)
+}
+
+.titulo1:hover {
+    color: rgb(226, 244, 255);
+}
+
+.emalta {
+    margin-bottom: 300px;
+    padding-right: 0px;
+
+    text-align: center;
+    background-color: rgb(0, 166, 255);
+
+}
+
+h2 {
+    padding-top: 20px;
+    font-size: 2rem;
+    color: rgb(0, 166, 255);
+}
+
+h2:hover {
+    color: rgb(0, 117, 180);
+}
+
+footer {
+    color: white;
+    padding-top: 20px;
+    font-size: 1rem;
+}
+
+.fp {
+    font-size: 15px;
+}
+
+.tempo {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+
+}
+
+.tempo2 {
+    width: 500px;
+    ;
+    height: 300px;
+    object-fit: fill;
+
+}
+
+.add {
+    width: 100%;
+    height: 300px;
+    object-fit: fill;
+    border-radius: 0%;
+}
+
+@media (max-width: 960px) {
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        padding-top: 5px;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 600px) {
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        padding-top: 5px;
+        font-size: 0.9rem;
+    }
+}
+
+.carousel-item {
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.carousel-item:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.carousel-inner {
+    border-radius: 35px;
+}
